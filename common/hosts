@@ -1,0 +1,12 @@
+10.10.10.60 mongodb-config-east-prod1
+10.10.10.61 mongodb-config-central-prod1
+10.10.10.62 mongodb-config-west-prod1
+10.10.10.63 mongodb-east-prod1
+10.10.10.64 mongodb-east-prod2
+10.10.10.65 mongodb-east-prod3
+10.10.10.66 mongodb-central-prod1
+10.10.10.67 mongodb-central-prod2
+10.10.10.68 mongodb-central-prod3
+10.10.10.69 mongodb-west-prod1
+10.10.10.70 mongodb-west-prod2
+10.10.10.71 mongodb-west-prod3
