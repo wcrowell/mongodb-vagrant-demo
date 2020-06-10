@@ -1,3 +1,5 @@
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
 10.10.10.60 mongodb-config-east-prod1
 10.10.10.61 mongodb-config-central-prod1
 10.10.10.62 mongodb-config-west-prod1

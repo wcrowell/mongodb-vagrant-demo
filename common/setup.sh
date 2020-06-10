@@ -3,6 +3,7 @@ hostname=$2
 mongodb_version=$3
 repl_set_name=$4
 config_server=$5
+mongodb_minor_point_version=$6
 
 printf "mongodb_version: %s for %s at address %s" $mongodb_version $hostname $ip_address
 YUM_REPO_CONFIG_PATH="/etc/yum.repos.d/mongodb-org-${mongodb_version}.repo"
@@ -33,7 +34,7 @@ cp -pr /home/vagrant/.ssh /home/mongod/
 chown -R mongod:mongod /home/mongod
 
 # Install MongoDB
-yum -y install mongodb-org --nogpgcheck
+yum -y install mongodb-org-${mongodb_version}.${mongodb_minor_point_version} --nogpgcheck
 
 # Setting the hostname allows me to see what machine I am on from the prompt
 hostnamectl set-hostname ${hostname}
