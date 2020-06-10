@@ -13,7 +13,7 @@ Vagrant.configure("2") do |config|
 
   # If ssh passed in, then change user to mongod
   if VAGRANT_COMMAND == "ssh"
-    config.ssh.username = 'mongod'
+    #config.ssh.username = 'mongod'
   end
   config.vm.box = "centos/7"
  
